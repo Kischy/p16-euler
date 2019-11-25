@@ -5,6 +5,8 @@ Created on Mon Nov 25 20:16:13 2019
 @author: kisch
 """
 
+from sum_of_digits import calc_sum_of_digits as sod
+
 
 problem_number = 16
 
@@ -12,7 +14,7 @@ problem_number = 16
 print("Calculation started")
 
 
-the_answer = 0
+the_answer = sod(2**1000)
 
 
 
