@@ -11,7 +11,7 @@ import unittest
 from sum_of_digits import calc_sum_of_digits as sod
 
 
-class TestCollatzLength(unittest.TestCase):
+class TestSumOfDigits(unittest.TestCase):
     
     def test_sum_of_digits(self):
         self.assertEqual(sod(32768),26)
